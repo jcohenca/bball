@@ -1,0 +1,155 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= jquery-ui
+ *= require_tree .
+ *= require_self
+ */
+
+body {
+  background-color: #2E66B2;
+}
+
+#info {
+  text-align: center;
+  top: 0;
+}
+
+span {
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.draggables {
+  cursor: move;
+  left: 0px;
+  top: 0px;
+}
+
+#shoot {
+  width: 460px;
+  height: 50px;
+  font-size: 1.5em;
+  top: 620px;
+  left: 520px;
+  margin: auto;
+  position: absolute;
+  border-radius: 5px;
+  z-index: -1;
+}
+
+#reset {
+  width: 460px;
+  height: 50px;
+  font-size: 1.5em;
+  top: 620px;
+  left: 43px;
+  margin: auto;
+  position: absolute;
+  border-radius: 5px;
+  z-index: -1;
+}
+
+#unstick {
+  width: 460px;
+  height: 50px;
+  font-size: 1.5em;
+  top: 560px;
+  left: 43px;
+  margin: auto;
+  position: absolute;
+  border-radius: 5px;
+  z-index: -1;
+}
+
+#o1, #o2, #o3, #o4, #o5, #x1, #x2, #x3, #x4, #x5, #ball {position: absolute; text-align: center; left: 0px; top: 0px;}
+
+.shotclock input, #shotclock {
+  position: absolute;
+  font-size: 2em;
+  top: 365px;
+  left: 550px;
+  display: block;
+}
+
+.tooltip {
+  position: fixed;
+}
+
+#court {
+  position: absolute;
+  padding: 43px;
+  top: 0px;
+  left: 0;
+  z-index: -1;
+}
+
+#EP {
+  font-size: 1.7em;
+  color: #2E66B2;
+  top: 275px;
+  left: 486px;
+  position: absolute;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  padding: 0px;
+  text-align: center;
+}
+
+.offense-x, .offense-y, .defense-x, .defense-y, #ball-pos-x, #ball-pos-y, #combination {
+  visibility: hidden;
+}
+
+.ui-widget {
+    font-family: Verdana,Arial,sans-serif;
+    font-size: 1em;
+}
+
+.ui-widget-content {
+    background: #F9F9F9;
+    border: 1px solid #2E66B2;
+    color: #222222;
+}
+
+.ui-dialog {
+    left: 0;
+    outline: 0 none;
+    padding: 0 !important;
+    position: absolute;
+    top: 0;
+}
+
+.ui-dialog .ui-dialog-content {
+    background: none repeat scroll 0 0 transparent;
+    border: 0 none;
+    overflow: auto;
+    position: relative;
+    padding-left: 25px !important;
+    padding-right: 25px !important;
+}
+
+.ui-widget-header {
+    background: #2E66B2;
+    border: 0;
+    color: #fff;
+    font-weight: normal;
+}
+
+.ui-dialog .ui-dialog-titlebar {
+    padding: 0.1em .5em;
+    position: relative;
+        font-size: 1.2em;
+}
+
+
+

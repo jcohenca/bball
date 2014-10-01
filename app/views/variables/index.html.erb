@@ -1,0 +1,77 @@
+
+    <body>
+        <div id="shotclock">
+            <input class="shotclock" value="12"> 
+        </div>
+
+        <div id="court"> <%= image_tag "final2.png"%> </div>
+
+        <div class="draggables"> 
+            <div id="ball"><%=image_tag "lol.png"%></div>
+            <div id="o1"><%= image_tag "o.png" %></div>
+            <div id="o2"><%= image_tag "o.png" %></div>
+            <div id="o3"><%= image_tag "o.png" %></div>
+            <div id="o4"><%= image_tag "o.png" %></div>
+            <div id="o5"><%= image_tag "o.png" %></div>
+
+            <div id="x1"><%= image_tag "x.png" %></div>
+            <div id="x2"><%= image_tag "x.png" %></div>
+            <div id="x3"><%= image_tag "x.png" %></div>
+            <div id="x4"><%= image_tag "x.png" %></div>
+            <div id="x5"><%= image_tag "x.png" %></div>
+         </div>
+
+        <div id="ball-pos-x"></div> 
+        <div id="ball-pos-y"></div> 
+
+        <div class="offense-x">
+            <div id="results1-x"></div>
+            <div id="results2-x"></div>
+            <div id="results3-x"></div>
+            <div id="results4-x"></div>
+            <div id="results5-x"></div>
+        </div>
+
+        <div class="offense-y">
+            <div id="results1-y"></div>
+            <div id="results2-y"></div>
+            <div id="results3-y"></div>
+            <div id="results4-y"></div>
+            <div id="results5-y"></div>
+        </div>
+
+        <div class="defense-x">
+            <div id="results6-x"></div>
+            <div id="results7-x"></div>
+            <div id="results8-x"></div>
+            <div id="results9-x"></div>
+            <div id="results10-x"></div>
+        </div>
+
+        <div class="defense-y">
+            <div id="results6-y"></div>
+            <div id="results7-y"></div>
+            <div id="results8-y"></div>
+            <div id="results9-y"></div>
+            <div id="results10-y"></div>
+        </div>
+
+        <div id="EP"> 1.25 </div>
+
+        <div id="combination"></div>
+
+        <div id="info" title="Estimated Points"> 
+                <p> The shotclock can be adjusted by dragging the knob in either direction
+
+                <p>Defensive players are attached to respective Offensive players.</p>
+                <p> Defensive players can be dragged seperately or along with Offensive Players </p>
+
+        </div> 
+
+        <!-- <button id="shoot" onclick="">Unlock Defenders</button> -->
+        <!-- <button id="shoot" onclick="myLoop(227)">Demo</button>
+        <button id="reset" onclick="resetCourt()">Reset</button> -->
+        <!-- <button id="unstick" onclick="">Unstick Defenders</button> -->
+
+
+</html>
