@@ -8,7 +8,7 @@ function coordinatesX(element, results) {
     $(results).text(left);
     };
 
-function otherShit(pixels) {
+function getXRatio(pixels) {
     var xRatio = 93.996/parseFloat(933)
     pixel / -xRatio + 976 
 }
